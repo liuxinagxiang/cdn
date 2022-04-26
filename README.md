@@ -1,6 +1,6 @@
 ### CentOs-6-Vault.repo
 
-jsdelivr-cdn
+**jsdelivr-cdn**
 ```
 github:
 https://cdn.jsdelivr.net/gh/user/repo@version/file
@@ -9,7 +9,7 @@ https://cdn.jsdelivr.net/gh/liuxinagxiang/cdn/CentOs-6-Vault/CentOs-6-Vault-Aliy
 npm:
 https://cdn.jsdelivr.net/npm/package@version/file
 ```
-statically-cdn
+**statically-cdn**
 ```
 github:
 https://cdn.staticaly.com/gh/:user/:repo/:tag/:file
@@ -19,7 +19,7 @@ gitlab:
 https://cdn.statically.io/gl/:user/:repo/:tag/:file
 ```
 
-how to use:
+**how to use:**
 ```
 #备份
 mv -v /etc/yum.repos.d/CentOS-Base.repo{,-backup}
