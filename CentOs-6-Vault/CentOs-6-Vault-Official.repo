@@ -1,6 +1,6 @@
 [base]
 name=CentOS-$releasever - Base
-baseurl=http://vault.centos.org/$releasever/os/$basearch/
+baseurl=http://vault.centos.org/6.9/os/$basearch/
 gpgcheck=1
 gpgkey=https://vault.centos.org/RPM-GPG-KEY-CentOS-6
 enabled=1
@@ -8,7 +8,7 @@ metadata_expire=never
 
 [updates]
 name=CentOS-$releasever - Updates
-baseurl=http://vault.centos.org/$releasever/updates/$basearch/
+baseurl=http://vault.centos.org/6.9/updates/$basearch/
 gpgcheck=1
 gpgkey=https://vault.centos.org/RPM-GPG-KEY-CentOS-6
 enabled=1
@@ -16,7 +16,7 @@ metadata_expire=never
 
 [extras]
 name=CentOS-$releasever - Extras
-baseurl=http://vault.centos.org/$releasever/extras/$basearch/
+baseurl=http://vault.centos.org/6.9/extras/$basearch/
 gpgcheck=1
 gpgkey=https://vault.centos.org/RPM-GPG-KEY-CentOS-6
 enabled=1
@@ -24,7 +24,7 @@ metadata_expire=never
 
 [contrib]
 name=CentOS-$releasever - Contrib
-baseurl=http://vault.centos.org/$releasever/contrib/$basearch/
+baseurl=http://vault.centos.org/6.9/contrib/$basearch/
 gpgcheck=1
 gpgkey=https://vault.centos.org/RPM-GPG-KEY-CentOS-6
 enabled=0
@@ -32,7 +32,7 @@ metadata_expire=never
 
 [centosplus]
 name=CentOS-$releasever - CentOSPlus
-baseurl=http://vault.centos.org/$releasever/centosplus/$basearch/
+baseurl=http://vault.centos.org/6.9/centosplus/$basearch/
 gpgcheck=1
 gpgkey=https://vault.centos.org/RPM-GPG-KEY-CentOS-6
 enabled=0
