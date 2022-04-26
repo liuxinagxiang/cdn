@@ -1,6 +1,6 @@
 ### CentOs-6-Vault.repo
 
-**jsdelivr-cdn**
+**[jsdelivr-cdn](https://www.jsdelivr.com)**
 ```
 github:
 https://cdn.jsdelivr.net/gh/user/repo@version/file
@@ -9,7 +9,7 @@ https://cdn.jsdelivr.net/gh/liuxinagxiang/cdn/CentOs-6-Vault/CentOs-6-Vault-Aliy
 npm:
 https://cdn.jsdelivr.net/npm/package@version/file
 ```
-**statically-cdn**
+**[statically-cdn](https://statically.io)**
 ```
 github:
 https://cdn.staticaly.com/gh/:user/:repo/:tag/:file
