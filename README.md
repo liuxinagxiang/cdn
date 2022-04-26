@@ -19,7 +19,7 @@ gitlab:
 https://cdn.statically.io/gl/:user/:repo/:tag/:file
 ```
 
-how to use
+how to use:
 ```
 #备份
 mv -v /etc/yum.repos.d/CentOS-Base.repo{,-backup}
